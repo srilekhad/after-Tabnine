@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Rental Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1, footer p {
+            margin: 0;
+        }
+
+        .main-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .main-content .section {
+            flex-basis: calc(33.33% - 20px);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .main-content .section h2 {
+            margin-top: 0;
+        }
+
+        .main-content .section img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .main-content .section form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .main-content .section form label,
+        .main-content .section form input,
+        .main-content .section form select,
+        .main-content .section form button {
+            margin-bottom: 10px;
+        }
+
+        .main-content .section form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .main-content .section form input[type="submit"]:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>House Rental Website</h1>
+    </header>
+
+    <div class="container">
+        <div class="main-content">
+            <div class="section">
+                <h2>Section 1</h2>
+                <img src="https://images.unsplash.com/photo-1505740428918-18e1c06cc733?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGJ8fDE2MzI3MzMx&auto=format&fit=crop&w=800&q=80" alt="House Image">
+                <form>
+                    <label for="name1">Name:</label>
+                    <input type="text" id="name1" name="name1" required>
+
+                    <label for="email1">Email:</label>
+                    <input type="email" id="email1" name="email1" required>
+
+                    <label for="phone1">Phone:</label>
+                    <input type="tel" id="phone1" name="phone1" required>
+
+                    <label for="address1">Address:</label>
+                    <input type="text" id="address1" name="address1" required>
+
+                    <label for="message1">Message:</label>
+                    <textarea id="message1" name="message1" required></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <div class="section">
+                <h2>Section 2</h2>
+                <img src="https://images.unsplash.com/photo-1505740428918-18e1c06cc733?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGJ8fDE2MzI3MzMx&auto=format&fit=crop&w=800&q=80" alt="House Image">
+                <form>
+                    <label for="name2">Name:</label>
+                    <input type="text" id="name2" name="name2" required>
+
+                    <label for="email2">Email:</label>
+                    <input type="email" id="email2" name="email2" required>
+
+                    <label for="phone2">Phone:</label>
+                    <input type="tel" id="phone2" name="phone2" required>
+
+                    <label for="address2">Address:</label>
+                    <input type="text" id="address2" name="address2" required>
+
+                    <label for="message2">Message:</label>
+                    <textarea id="message2" name="message2" required></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+            <div class="section">
+                <h2>Section 3</h2>
+                <img src="https://images.unsplash.com/photo-1505740428918-18e1c06cc733?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGJ8fDE2MzI3MzMx&auto=format&fit=crop&w=800&q=80" alt="House Image">
+                <form>
+                    <label for="name3">Name:</label>
+                    <input type="text" id="name3" name="name3" required>
+
+                    <label for="email3">Email:</label>
+                    <input type="email" id="email3" name="email3" required>
+
+                    <label for="phone3">Phone:</label>
+                    <input type="tel" id="phone3" name="phone3" required>
+
+                    <label for="address3">Address:</label>
+                    <input type="text" id="address3" name="address3" required>
+
+                    <label for="message3">Message:</label>
+                    <textarea id="message3" name="message3" required></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2022 House Rental Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
